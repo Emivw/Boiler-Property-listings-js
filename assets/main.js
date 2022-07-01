@@ -18,84 +18,75 @@ jQuery(".owl-carousel").owlCarousel({
     },
 });
 
-// Array
-const projects = [{
-        title: "Home 1",
-        imgURL: "https://picsum.photos/200/300?random=1",
-        description: "Lorem ipsum",
-        technologies: "HTML/CSS/JS",
-        links: {
-            github: "Link",
-            live: "Link",
-        },
-    },
-    {
-        title: "Project 2",
-        imgURL: "https://picsum.photos/200/300?random=2",
-        description: "Lorem ipsum",
-        technologies: "HTML/CSS/JS",
-        links: {
-            github: "Link",
-            live: "Link",
-        },
-    },
-    {
-        title: "Project 3",
-        imgURL: "https://picsum.photos/200/300?random=3",
-        description: "Lorem ipsum",
-        technologies: "HTML/CSS/JS",
-        links: {
-            github: "Link",
-            live: "Link",
-        },
-    },
-    {
-        title: "Project 4",
-        imgURL: "https://picsum.photos/200/300?random=4",
-        description: "Lorem ipsum",
-        technologies: "HTML/CSS/JS",
-        links: {
-            github: "Link",
-            live: "Link",
-        },
-    },
-    {
-        title: "Project 5",
-        imgURL: "https://picsum.photos/200/300?random=5",
-        description: "Lorem ipsum",
-        technologies: "HTML/CSS/JS",
-        links: {
-            github: "Link",
-            live: "Link",
-        },
-    },
-    {
-        title: "Project 6",
-        imgURL: "https://picsum.photos/200/300?random=6",
-        description: "Lorem ipsum",
-        technologies: "HTML/CSS/JS",
-        links: {
-            github: "Link",
-            live: "Link",
-        },
-    },
-];
-// const projectContainer = document.querySelector(".owl-carousel");
-// projects.forEach((project) => {
-//     projectContainer.innerHTML += ` 
-//     <div class="item">
-//         <h3>${project.title}</h3>
-//         <img class="img-fluid" src=${project.imgURL}>
-//     </div>`;
-// });
-
-// $("#addCarous").click(function(e) {
-//     debugger;
-//     var number = document.getElementsByClassName("item").length + 1;
-//     e.preventDefault(); //-- prevent form submit
-//     $("#owl-demo")
-//         .trigger("add.owl.carousel", [
-//             '<div class="item"> ' + number + " slide </div>",
-//         ])
-//         .trigger("refresh.owl.carousel");
-// });
+const container = document.getElementById("admin-container");
+const items = [{
+    id: 1,
+    title: "Kurama",
+    classification: "Tailed Beast",
+    species: "Kitsune",
+    affiliation: "Allied Shinobi Forces",
+    img: "../assets/media/"
+}, {
+    id: 2,
+    title: "Gyūki",
+    classification: "Tailed Beast",
+    species: "Ushi-oni",
+    affiliation: "Allied Shinobi Forces",
+    img: "../assets/media/"
+}, {
+    id: 3,
+    title: "Chōmei",
+    classification: "Tailed Beast",
+    species: "Kabutomushi",
+    affiliation: "Takigakure",
+    img: "../assets/media/"
+}, {
+    id: 4,
+    title: "Saiken",
+    classification: "Tailed Beast",
+    species: "Slug",
+    affiliation: "Kirigakure",
+    img: "../assets/media/"
+}, {
+    id: 5,
+    title: "Kokuō",
+    classification: "Tailed Beast",
+    species: "Kitsune",
+    affiliation: "Iwagakure",
+    img: "../assets/media/"
+}, {
+    id: 6,
+    title: "Son Gokū",
+    classification: "Tailed Beast",
+    species: "Kitsune",
+    affiliation: "Iwagakure",
+    img: "../assets/media/"
+}, {
+    id: 7,
+    title: "Isobu",
+    classification: "Tailed Beast",
+    species: "Kitsune",
+    affiliation: "Kirigakure",
+    img: "../assets/media/"
+}, {
+    id: 8,
+    title: "Matatabi",
+    classification: "Tailed Beast",
+    species: "Bakeneko",
+    affiliation: "Kumogakure",
+    img: "../assets/media/"
+}, {
+    id: 9,
+    title: "Relaxing Studio",
+    classification: "Tailed Beast",
+    species: "Kitsune",
+    affiliation: "Allied Shinobi Forces",
+    img: "../assets/media/"
+}, {
+    id: 10,
+    title: "Design Apartment",
+    classification: "Tailed Beast",
+    species: "Kitsune",
+    affiliation: "Allied Shinobi Forces",
+    img: "../assets/media/"
+}]
